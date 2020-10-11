@@ -1,0 +1,25 @@
+{
+  "name": "figaro-news-archiver",
+  "version": "1.0.0",
+  "description": "A Puppeteer for archive Figaro Newspaper news",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GregoireALP/Figaro-News-Archiver.git"
+  },
+  "author": "GregoireALP",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GregoireALP/Figaro-News-Archiver/issues"
+  },
+  "homepage": "https://github.com/GregoireALP/Figaro-News-Archiver#readme",
+  "dependencies": {
+    "firebase": "^7.23.0",
+    "puppeteer": "^5.3.1",
+    "xhr2": "^0.2.0"
+  }
+}
