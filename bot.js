@@ -34,7 +34,7 @@ class FigaroNewsArchiver {
         var mm = String(date.getMonth() + 1).padStart(2, '0'); //January is 0!
         var yyyy = date.getFullYear();
 
-        date = dd + '-' + mm + '-' + yyyy;
+        date = dd + '-' + mm + '-' + "20";
 
         return date;
 
