@@ -1,10 +1,11 @@
 import React from 'react'
+import { BrowserRouter, Link } from 'react-router-dom'
 import './navigationBar.css'
 
 class NavigationBar extends React.Component {
 
     render() {
-        return(
+        return (
             <nav className="navbar">
 
                 <div className="navbar-logo">
@@ -12,8 +13,8 @@ class NavigationBar extends React.Component {
                 </div>
 
                 <ul className="navbar-nav">
-                    <li className="nav-item">Acceuil</li>
-                    <li className="nav-item">Informations</li>
+                    <a href="/" className="nav-item">Acceuil</a>
+                    <a href="/about" className="nav-item">Informations</a>
                 </ul>
 
             </nav>

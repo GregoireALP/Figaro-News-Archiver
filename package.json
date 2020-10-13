@@ -20,6 +20,7 @@
   "dependencies": {
     "firebase": "^7.23.0",
     "puppeteer": "^5.3.1",
+    "react-router-dom": "^5.2.0",
     "xhr2": "^0.2.0"
   }
 }
