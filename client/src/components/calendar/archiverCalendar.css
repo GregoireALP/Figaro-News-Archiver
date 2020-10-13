@@ -10,3 +10,13 @@
     width: 100%;
     margin: auto;
 }
+
+.archiver-calendar-title {
+    font-family: 'Anton', sans-serif;
+    font-size: 35px;
+    color: var(--color4)
+}
+
+.archiver-calendar-image {
+    margin: 15px
+}
